@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Central Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=ITExperience:mailto:support@itexperience.org
+DESCRIPTION;LANGUAGE=en-US:Hello All\,\n\nYou are invited to attend the IBM
+  ITExperience SkillsBuild Learning Program Orientation for the May 2023 Co
+ hort. The orientation will be held online (Microsoft teams) on Sunday\, Ma
+ y 28th \,  2023\, at 7AM CST.\n\nPlease accept the invitation to have it a
+ dded to your Calander.\n\nDuring the orientation\, you’ll get details on
+  the program and instructions on how get access to the IBM ITExperience cu
+ stom learning path on SkillsBuild platform and also learn about the ITExpe
+ rience Slack Community of Learners.\n\nWe look forward to connecting with 
+ you soon!​\n\nRegards\,\n\nITExperience Program Team\n\n\n______________
+ __________________________________________________________________\nMicros
+ oft Teams meeting\nJoin on your computer\, mobile app or room device\nClic
+ k here to join the meeting<https://teams.microsoft.com/l/meetup-join/19%3a
+ meeting_NTU3YTI0ZDQtZDUzYS00NGM4LTk2MDctMWJjMGNjZTViNzM3%40thread.v2/0?con
+ text=%7b%22Tid%22%3a%226f67a2c6-ae7f-4057-bb48-5c11c20a8a94%22%2c%22Oid%22
+ %3a%22986ece88-983f-4ef6-a638-18233977b4d7%22%7d>\nMeeting ID: 252 177 189
+  93\nPasscode: 8PTiLi\nDownload Teams<https://www.microsoft.com/en-us/micr
+ osoft-teams/download-app> | Join on the web<https://www.microsoft.com/micr
+ osoft-teams/join-a-meeting>\n[https://itexperience.org/wp-content/uploads/
+ 2020/10/LOGO2.jpg]\nLearn More<https://aka.ms/JoinTeamsMeeting> | Meeting 
+ options<https://teams.microsoft.com/meetingOptions/?organizerId=986ece88-9
+ 83f-4ef6-a638-18233977b4d7&tenantId=6f67a2c6-ae7f-4057-bb48-5c11c20a8a94&t
+ hreadId=19_meeting_NTU3YTI0ZDQtZDUzYS00NGM4LTk2MDctMWJjMGNjZTViNzM3@thread
+ .v2&messageId=0&language=en-US>\n_________________________________________
+ _______________________________________\n
+UID:040000008200E00074C5B7101A82E008000000000207E57E718FD901000000000000000
+ 01000000011C8639EA66BC648839638895B9C87D9
+SUMMARY;LANGUAGE=en-US:IBM ITExperience SkillsBuild Learning Program: May 2
+ 023 Cohort Orientation
+DTSTART;TZID=Central Standard Time:20230528T070000
+DTEND;TZID=Central Standard Time:20230528T080000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20230526T012938Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2121649154
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_NTU3YTI0ZDQtZDUzYS00NGM4LTk2MDctMWJjMGNjZTViNzM3%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%226f67a2c6-ae7f-4057-bb48-5c11c20a8a94%22%2c%22O
+ id%22%3a%22986ece88-983f-4ef6-a638-18233977b4d7%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/6f67a2c6-ae7f-4057-bb48-5c11c20a8a94/986ece88-983f-4ef6-a638-1
+ 8233977b4d7/19_meeting_NTU3YTI0ZDQtZDUzYS00NGM4LTk2MDctMWJjMGNjZTViNzM3@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_NTU3YTI0ZDQtZDUzYS00NGM
+ 4LTk2MDctMWJjMGNjZTViNzM3@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:support@itexperience.org\;gruu\;
+ opaque=app:conf:focus:id:teams:2:0!19:meeting_NTU3YTI0ZDQtZDUzYS00NGM4LTk2
+ MDctMWJjMGNjZTViNzM3-thread.v2!986ece88983f4ef6a63818233977b4d7!6f67a2c6ae
+ 7f4057bb485c11c20a8a94
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
